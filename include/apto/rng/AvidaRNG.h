@@ -42,8 +42,8 @@ namespace Apto {
     class AvidaRNG : public Random
     {
     private:
-      LIB_EXPORT static const unsigned int UPPER_BOUND;
-      LIB_EXPORT static const int MAX_SEED;
+	  LIB_EXPORT static const unsigned int Apto::RNG::AvidaRNG::UPPER_BOUND = 1000000000;
+	  LIB_EXPORT static const int Apto::RNG::AvidaRNG::MAX_SEED = 161803398;
       
       int m_inext;
       int m_inextp;

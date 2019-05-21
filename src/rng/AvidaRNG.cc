@@ -30,10 +30,6 @@
 
 #include "apto/rng/AvidaRNG.h"
 
-
-const unsigned int Apto::RNG::AvidaRNG::UPPER_BOUND = 1000000000;
-const int Apto::RNG::AvidaRNG::MAX_SEED = 161803398;
-
 Apto::RNG::AvidaRNG::~AvidaRNG() { ; }
 
 
